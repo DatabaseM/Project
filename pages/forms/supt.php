@@ -42,8 +42,16 @@ else{
 
 // close connection
 
-mysqli_close($link);
-header("Location: sup.html"); /* Redirect browser */
+    echo '<script language="Javascript" type="text/javascript">';
+    echo     'alert('. json_encode($message) .');';
+    echo '</script>';
+
+
+// close connection
+
+mysqli_close($conn);
+//header("Location: addp.php"); /* Redirect browser */
+echo '<meta http-equiv="refresh" content="1; url=sup.php">';
 exit();
 
 ?>

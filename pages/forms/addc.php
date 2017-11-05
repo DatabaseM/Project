@@ -20,7 +20,7 @@ $add = $_POST['add'];
 
 $sql = "INSERT INTO customer VALUES ('$cid','$name','$cno','$email','$add')";
 
-if(!mysqli_query($conn, $sql)){
+if(mysqli_query($conn, $sql)){
 
   
     $message = "Records added successfully.";
@@ -38,9 +38,19 @@ else{
 
 // close connection
 
-mysqli_close($link);
-header("Location: addc.html"); /* Redirect browser */
+
+    echo '<script language="Javascript" type="text/javascript">';
+    echo     'alert('. json_encode($message) .');';
+    echo '</script>';
+
+
+// close connection
+
+mysqli_close($conn);
+//header("Location: addp.php"); /* Redirect browser */
+echo '<meta http-equiv="refresh" content="1; url=addc.html">';
 exit();
+
 
 ?>
 

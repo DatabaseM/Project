@@ -23,26 +23,31 @@ $unit = $_POST['unit'];
 
 $sql = "INSERT INTO stock VALUES ('$pid','$name','$hsn','$qty','$unit','$sid')";
 
-if(!mysqli_query($conn, $sql)){
+if(mysqli_query($conn, $sql)){
 
   
     $message = "Records added successfully.";
-echo "<script type='text/javascript'>alert('$message');</script>";
+//echo "<script type='javascript'>alert('" .$message. "');</script>";
 
 } 
 else{
 
     $message= "ERROR: Could not able to execute $sql. " . mysqli_error($link);
-    echo "<script type='text/javascript'>alert('$message');</script>";
+ //   echo "<script type='text/javascript'>alert('$message');</script>";
 
 }
 
  
+    echo '<script language="Javascript" type="text/javascript">';
+    echo     'alert('. json_encode($message) .');';
+    echo '</script>';
+
 
 // close connection
 
-mysqli_close($link);
-header("Location: addp.php"); /* Redirect browser */
+mysqli_close($conn);
+//header("Location: addp.php"); /* Redirect browser */
+echo '<meta http-equiv="refresh" content="1; url=addp.php">';
 exit();
 
 ?>

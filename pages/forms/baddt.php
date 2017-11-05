@@ -22,7 +22,7 @@ $qty = $_POST['qty'];
 
 $sql = "INSERT INTO transbuy (tbid, pid, date, quantity, amount, tax, sid) VALUES ('$tsid','$pid',now(),'$qty','$amt','$tax','$sid')";
 
-if(!mysqli_query($conn, $sql)){
+if(mysqli_query($conn, $sql)){
 
   
     $message = "Records added successfully.";
@@ -40,9 +40,19 @@ else{
 
 // close connection
 
-mysqli_close($link);
-header("Location: badd.html"); /* Redirect browser */
+
+    echo '<script language="Javascript" type="text/javascript">';
+    echo     'alert('. json_encode($message) .');';
+    echo '</script>';
+
+
+// close connection
+
+mysqli_close($conn);
+//header("Location: addp.php"); /* Redirect browser */
+echo '<meta http-equiv="refresh" content="1; url=badd.php">';
 exit();
+
 
 ?>
 

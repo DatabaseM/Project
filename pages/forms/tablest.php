@@ -32,7 +32,7 @@
 <div class="wrapper">
  <header class="main-header">
     <!-- Logo -->
-    <a href="index.html" class="logo">
+    <a href="../../index.html" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>A</b>E</span>
       <!-- logo for regular state and mobile devices -->
@@ -58,13 +58,13 @@
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src="dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
+              <img src="../../dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
               <span class="hidden-xs">Admin</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
               <li class="user-header">
-                <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                <img src="../../dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
 
                 <p>
                   Administrator Account
@@ -79,7 +79,7 @@
                   <a href="#" class="btn btn-default btn-flat">Profile</a>
                 </div>
                 <div class="pull-right">
-                  <a href="#" class="btn btn-default btn-flat">Sign out</a>
+                  <a href="../../login.html" class="btn btn-default btn-flat">Sign out</a>
                 </div>
               </li>
             </ul>
@@ -99,7 +99,7 @@
       <!-- Sidebar user panel -->
        <div class="user-panel">
         <div class="pull-left image">
-          <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+          <img src="../../dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
           <p>Inventory DB</p>
@@ -133,11 +133,11 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="addp.html#"><i class="fa fa-circle-o"></i>  Add Products</a></li>
+            <li><a href="addp.php#"><i class="fa fa-circle-o"></i>  Add Products</a></li><li><a href="tablep.php#"><i class="fa fa-circle-o"></i>  Inventory List</a></li>
            
-            <li><a href="#"><i class="fa fa-circle-o"></i> Inventory List</a></li>
-            <li><a href="upst.html#"><i class="fa fa-circle-o"></i> Update Product</a></li>
-            <li><a href="delp.html#"><i class="fa fa-circle-o"></i> Delete Product</a></li>  
+            
+            <li><a href="upst.php#"><i class="fa fa-circle-o"></i> Update Product</a></li>
+            <li><a href="delp.php#"><i class="fa fa-circle-o"></i> Delete Product</a></li>  
           </ul>
         </li>
       
@@ -151,9 +151,9 @@
           <ul class="treeview-menu">
             <li><a href="addc.html#"><i class="fa fa-circle-o"></i> New Customer</a></li>
            
-            <li><a href="#"><i class="fa fa-circle-o"></i> Customer List</a></li>
-            <li><a href="upc.html#"><i class="fa fa-circle-o"></i> Update Customer Details</a></li>
-            <li><a href="delc.html#"><i class="fa fa-circle-o"></i> Delete Customer</a></li>  
+            <li><a href="tablec.php"><i class="fa fa-circle-o"></i> Customer List</a></li>
+            <li><a href="upc.php#"><i class="fa fa-circle-o"></i> Update Customer Details</a></li>
+            <li><a href="delc.php#"><i class="fa fa-circle-o"></i> Delete Customer</a></li>  
           </ul>
         </li>
           <li class="treeview">
@@ -166,9 +166,9 @@
           <ul class="treeview-menu">
             <li><a href="adds.html#"><i class="fa fa-circle-o"></i> New customer</a></li>
            
-            <li><a href="#"><i class="fa fa-circle-o"></i> customer List</a></li>
-            <li><a href="ups.html#"><i class="fa fa-circle-o"></i> Update customer Details</a></li>
-            <li><a href="dels.html#"><i class="fa fa-circle-o"></i> Delete customer</a></li>  
+            <li><a href="tablec.php"><i class="fa fa-circle-o"></i> Customer List</a></li>
+            <li><a href="ups.php#"><i class="fa fa-circle-o"></i> Update customer Details</a></li>
+            <li><a href="dels.php#"><i class="fa fa-circle-o"></i> Delete customer</a></li>  
           </ul>
         </li>
          <li class="treeview">
@@ -187,10 +187,10 @@
                 </span>
               </a>
               <ul class="treeview-menu">
-                <li><a href="sadd.html#"><i class="fa fa-circle-o"></i> New Transaction</a></li>
-                <li><a href="#"><i class="fa fa-circle-o"></i> View Transactions</a></li>
-                <li><a href="sup.html#"><i class="fa fa-circle-o"></i> Update Transaction</a></li>
-                <li><a href="sdel.html#"><i class="fa fa-circle-o"></i> Delete Transaction</a></li>  
+                <li><a href="sadd.php#"><i class="fa fa-circle-o"></i> New Transaction</a></li><li><a href="tablest.php#"><i class="fa fa-circle-o"></i> View Transactions</a></li>
+                
+                <li><a href="sup.php#"><i class="fa fa-circle-o"></i> Update Transaction</a></li>
+                <li><a href="sdel.php#"><i class="fa fa-circle-o"></i> Delete Transaction</a></li>  
               </ul>
             </li>
               <li class="treeview">
@@ -200,10 +200,10 @@
                 </span>
               </a>
               <ul class="treeview-menu">
-                <li><a href="badd.html#"><i class="fa fa-circle-o"></i> New Transaction</a></li>
-                <li><a href="#"><i class="fa fa-circle-o"></i> View Transactions</a></li>
-                <li><a href="bup.html#"><i class="fa fa-circle-o"></i> Update Transaction</a></li>
-                <li><a href="bdel.html#"><i class="fa fa-circle-o"></i> Delete Transaction</a></li>  
+                <li><a href="badd.php#"><i class="fa fa-circle-o"></i> New Transaction</a></li><li><a href="tablebt.php#"><i class="fa fa-circle-o"></i> View Transactions</a></li>
+                
+                <li><a href="bup.php#"><i class="fa fa-circle-o"></i> Update Transaction</a></li>
+                <li><a href="bdel.php#"><i class="fa fa-circle-o"></i> Delete Transaction</a></li>  
               </ul>
             </li>
           </ul>
@@ -219,8 +219,8 @@
           <ul class="treeview-menu">
            
            
-            <li><a href="#"><i class="fa fa-circle-o"></i> Sales Report</a></li>
-            <li><a href="#"><i class="fa fa-circle-o"></i> Purchase Report</a></li>
+            <li><a href="salesr.php"><i class="fa fa-circle-o"></i> Sales Report</a></li>
+            <li><a href="purchaser.php"><i class="fa fa-circle-o"></i> Purchase Report</a></li>
             
           </ul>
         </li>
@@ -341,7 +341,7 @@ ORDER BY `stock`.`name`  DESC";
     <div class="pull-right hidden-xs">
       <b>Version</b> 2.4.0
     </div>
-    <strong>Copyright &copy; 2014-2016 <a href="https://adminlte.io">Almsaeed Studio</a>.</strong> All rights
+    <strong>Copyright &copy; 2016-2017 <a href="#">Pccoe Studio</a>.</strong> All rights
     reserved.
   </footer>
 

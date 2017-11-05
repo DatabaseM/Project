@@ -16,10 +16,10 @@ $emp_id = trim($emp_id);
 $sql = "DELETE FROM transbuy WHERE tbid='$emp_id'";
 
 
-if(!mysqli_query($conn, $sql)){
+if(mysqli_query($conn, $sql)){
 
   
-    $message = "Records added successfully.";
+    $message = "Records Deleted successfully.";
 echo "<script type='text/javascript'>alert('$message');</script>";
 
 } 
@@ -34,9 +34,19 @@ else{
 
 // close connection
 
-mysqli_close($link);
-header("Location: bdel.html"); /* Redirect browser */
+
+    echo '<script language="Javascript" type="text/javascript">';
+    echo     'alert('. json_encode($message) .');';
+    echo '</script>';
+
+
+// close connection
+
+mysqli_close($conn);
+//header("Location: addp.php"); /* Redirect browser */
+echo '<meta http-equiv="refresh" content="1; url=bdel.php">';
 exit();
+
 
 ?>
 

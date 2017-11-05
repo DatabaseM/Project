@@ -23,7 +23,7 @@ $unit = $_POST['nunit'];
 
 $sql = "UPDATE stock SET name='$name',hsn_no='$hsn',quantity='$qty',unit='$unit',sid='$sid' WHERE pid='$emp_id'";
 
-if(!mysqli_query($conn, $sql)){
+if(mysqli_query($conn, $sql)){
 
   
     $message = "Records updated successfully.";
@@ -38,12 +38,18 @@ else{
 }
 
  
+    echo '<script language="Javascript" type="text/javascript">';
+    echo     'alert('. json_encode($message) .');';
+    echo '</script>';
+
 
 // close connection
 
-mysqli_close($link);
-header("Location: upst.html"); /* Redirect browser */
+mysqli_close($conn);
+//header("Location: addp.php"); /* Redirect browser */
+echo '<meta http-equiv="refresh" content="1; url=upst.php">';
 exit();
+
 
 ?>
 
