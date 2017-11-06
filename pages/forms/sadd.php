@@ -315,11 +315,11 @@ $dbname = "inventory";
                 </div>
                    <div class="form-group">
                   <label for="exampleInputEmail1">Amount</label>
-                  <input type="number" class="form-control" id="exampleInputcost1" name="amt" placeholder="Enter Amount">
+                  <input type="number" step="0.01" class="form-control" id="exampleInputcost1" name="amt" placeholder="Enter Amount">
                 </div>
                   <div class="form-group">
                   <label for="exampleInputEmail1">Tax</label>
-                  <input type="number" class="form-control" id="exampleInputpaid1" name="tax" placeholder="Enter Tax">
+                  <input type="number" step="0.01" class="form-control" id="exampleInputpaid1" name="tax" placeholder="Enter Tax">
                 </div>
                 
                              <div class="form-group">
