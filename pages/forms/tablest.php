@@ -76,7 +76,7 @@
               <!-- Menu Footer-->
               <li class="user-footer">
                 <div class="pull-left">
-                  <a href="#" class="btn btn-default btn-flat">Profile</a>
+                 
                 </div>
                 <div class="pull-right">
                   <a href="../../login.html" class="btn btn-default btn-flat">Sign out</a>
@@ -262,7 +262,7 @@
                     <th>Product Name</th>
                   <th>Date</th>
                   <th>Quantity</th>
-                  <th>Amount</th>
+                  <th>Rate</th>
                     <th>Tax(%)</th>
                     <th>Total</th>
                     <th>customer Name</th>

@@ -76,7 +76,7 @@
               <!-- Menu Footer-->
               <li class="user-footer">
                 <div class="pull-left">
-                  <a href="#" class="btn btn-default btn-flat">Profile</a>
+                 
                 </div>
                 <div class="pull-right">
                   <a href="../../login.html" class="btn btn-default btn-flat">Sign out</a>
@@ -250,7 +250,7 @@
         <div class="col-xs-12">
           <div class="box">
             <div class="box-header">
-              <h3 class="box-title">Customer Table</h3>
+              <h3 class="box-title">Purchase Table</h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body">

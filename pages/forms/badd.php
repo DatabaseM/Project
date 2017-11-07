@@ -76,7 +76,7 @@
               <!-- Menu Footer-->
               <li class="user-footer">
                 <div class="pull-left">
-                  <a href="#" class="btn btn-default btn-flat">Profile</a>
+                 
                 </div>
                 <div class="pull-right">
                   <a href="../../login.html" class="btn btn-default btn-flat">Sign out</a>
@@ -319,7 +319,8 @@ $dbname = "inventory";
                 </div>
                   <div class="form-group">
                   <label for="exampleInputEmail1">Tax</label>
-                  <input type="number" step="0.01" class="form-control" id="exampleInputpaid1" name="tax" placeholder="Enter Tax">
+                  <input type="number" step="0.01
+                                             " class="form-control" id="exampleInputpaid1" name="tax" placeholder="Enter Tax">
                 </div>
                  
                             <div class="form-group">
