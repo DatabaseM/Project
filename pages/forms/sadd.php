@@ -252,7 +252,7 @@
            <!-- general form elements -->   
           <div class="box box-primary">
             <div class="box-header with-border">
-              <h3 class="box-title">Add Transaction</h3>
+              <h3 class="box-title">Sell Transaction</h3>
             </div>
             <!-- /.box-header -->
             <!-- form start -->

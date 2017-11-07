@@ -250,7 +250,7 @@
         <div class="col-xs-12">
           <div class="box">
             <div class="box-header">
-              <h3 class="box-title">Customer Table</h3>
+              <h3 class="box-title">Purchase transaction Table</h3>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
