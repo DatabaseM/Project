@@ -119,7 +119,7 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li class="active"><a href="index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
+            <li class="active"><a href="../../index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
             
           </ul>
         </li>
